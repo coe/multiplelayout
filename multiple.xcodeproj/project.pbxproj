@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CE2E062F21CDF3BE00839251 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E062E21CDF3BE00839251 /* AppDelegate.swift */; };
-		CE2E063121CDF3BE00839251 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E063021CDF3BE00839251 /* ViewController.swift */; };
 		CE2E063421CDF3BE00839251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2E063221CDF3BE00839251 /* Main.storyboard */; };
 		CE2E063621CDF3C000839251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2E063521CDF3C000839251 /* Assets.xcassets */; };
 		CE2E063921CDF3C000839251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2E063721CDF3C000839251 /* LaunchScreen.storyboard */; };
 		CE2E064421CDF3C000839251 /* multipleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E064321CDF3C000839251 /* multipleTests.swift */; };
 		CE2E064F21CDF3C100839251 /* multipleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E064E21CDF3C100839251 /* multipleUITests.swift */; };
+		CE2E065D21CE06E900839251 /* AVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E065C21CE06E900839251 /* AVPlayerView.swift */; };
+		CE2E065F21CE079F00839251 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E065E21CE079F00839251 /* MovieViewController.swift */; };
+		CE576FFF21CF284B00BC89D7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE576FFE21CF284B00BC89D7 /* TableViewController.swift */; };
+		CEC7D35921D07642004687B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC7D35821D07642004687B2 /* AppDelegate.swift */; };
+		CEC7D35B21D07642004687B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC7D35A21D07642004687B2 /* ViewController.swift */; };
+		CEC7D35E21D07642004687B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC7D35C21D07642004687B2 /* Main.storyboard */; };
+		CEC7D36021D07644004687B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC7D35F21D07644004687B2 /* Assets.xcassets */; };
+		CEC7D36B21D07644004687B2 /* tvmaltipleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC7D36A21D07644004687B2 /* tvmaltipleTests.swift */; };
+		CEC7D37621D07644004687B2 /* tvmaltipleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC7D37521D07644004687B2 /* tvmaltipleUITests.swift */; };
+		CEC7D38121D0764D004687B2 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E065E21CE079F00839251 /* MovieViewController.swift */; };
+		CEC7D38221D076DA004687B2 /* AVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E065C21CE06E900839251 /* AVPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +41,25 @@
 			remoteGlobalIDString = CE2E062A21CDF3BE00839251;
 			remoteInfo = multiple;
 		};
+		CEC7D36721D07644004687B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2E062321CDF3BE00839251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC7D35521D07641004687B2;
+			remoteInfo = tvmaltiple;
+		};
+		CEC7D37221D07644004687B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2E062321CDF3BE00839251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC7D35521D07641004687B2;
+			remoteInfo = tvmaltiple;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CE2E062B21CDF3BE00839251 /* multiple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2E062E21CDF3BE00839251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE2E063021CDF3BE00839251 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE2E063321CDF3BE00839251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE2E063521CDF3C000839251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2E063821CDF3C000839251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +70,21 @@
 		CE2E064A21CDF3C000839251 /* multipleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multipleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2E064E21CDF3C100839251 /* multipleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleUITests.swift; sourceTree = "<group>"; };
 		CE2E065021CDF3C100839251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2E065C21CE06E900839251 /* AVPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerView.swift; sourceTree = "<group>"; };
+		CE2E065E21CE079F00839251 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		CE576FFE21CF284B00BC89D7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CEC7D35621D07641004687B2 /* tvmaltiple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvmaltiple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC7D35821D07642004687B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEC7D35A21D07642004687B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEC7D35D21D07642004687B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEC7D35F21D07644004687B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEC7D36121D07644004687B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC7D36621D07644004687B2 /* tvmaltipleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvmaltipleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC7D36A21D07644004687B2 /* tvmaltipleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvmaltipleTests.swift; sourceTree = "<group>"; };
+		CEC7D36C21D07644004687B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC7D37121D07644004687B2 /* tvmaltipleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvmaltipleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC7D37521D07644004687B2 /* tvmaltipleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvmaltipleUITests.swift; sourceTree = "<group>"; };
+		CEC7D37721D07644004687B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +109,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEC7D35321D07641004687B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC7D36321D07644004687B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC7D36E21D07644004687B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +139,9 @@
 				CE2E062D21CDF3BE00839251 /* multiple */,
 				CE2E064221CDF3C000839251 /* multipleTests */,
 				CE2E064D21CDF3C100839251 /* multipleUITests */,
+				CEC7D35721D07642004687B2 /* tvmaltiple */,
+				CEC7D36921D07644004687B2 /* tvmaltipleTests */,
+				CEC7D37421D07644004687B2 /* tvmaltipleUITests */,
 				CE2E062C21CDF3BE00839251 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +152,9 @@
 				CE2E062B21CDF3BE00839251 /* multiple.app */,
 				CE2E063F21CDF3C000839251 /* multipleTests.xctest */,
 				CE2E064A21CDF3C000839251 /* multipleUITests.xctest */,
+				CEC7D35621D07641004687B2 /* tvmaltiple.app */,
+				CEC7D36621D07644004687B2 /* tvmaltipleTests.xctest */,
+				CEC7D37121D07644004687B2 /* tvmaltipleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,11 +163,13 @@
 			isa = PBXGroup;
 			children = (
 				CE2E062E21CDF3BE00839251 /* AppDelegate.swift */,
-				CE2E063021CDF3BE00839251 /* ViewController.swift */,
 				CE2E063221CDF3BE00839251 /* Main.storyboard */,
 				CE2E063521CDF3C000839251 /* Assets.xcassets */,
 				CE2E063721CDF3C000839251 /* LaunchScreen.storyboard */,
 				CE2E063A21CDF3C000839251 /* Info.plist */,
+				CE2E065C21CE06E900839251 /* AVPlayerView.swift */,
+				CE2E065E21CE079F00839251 /* MovieViewController.swift */,
+				CE576FFE21CF284B00BC89D7 /* TableViewController.swift */,
 			);
 			path = multiple;
 			sourceTree = "<group>";
@@ -123,6 +190,36 @@
 				CE2E065021CDF3C100839251 /* Info.plist */,
 			);
 			path = multipleUITests;
+			sourceTree = "<group>";
+		};
+		CEC7D35721D07642004687B2 /* tvmaltiple */ = {
+			isa = PBXGroup;
+			children = (
+				CEC7D35821D07642004687B2 /* AppDelegate.swift */,
+				CEC7D35A21D07642004687B2 /* ViewController.swift */,
+				CEC7D35C21D07642004687B2 /* Main.storyboard */,
+				CEC7D35F21D07644004687B2 /* Assets.xcassets */,
+				CEC7D36121D07644004687B2 /* Info.plist */,
+			);
+			path = tvmaltiple;
+			sourceTree = "<group>";
+		};
+		CEC7D36921D07644004687B2 /* tvmaltipleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC7D36A21D07644004687B2 /* tvmaltipleTests.swift */,
+				CEC7D36C21D07644004687B2 /* Info.plist */,
+			);
+			path = tvmaltipleTests;
+			sourceTree = "<group>";
+		};
+		CEC7D37421D07644004687B2 /* tvmaltipleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC7D37521D07644004687B2 /* tvmaltipleUITests.swift */,
+				CEC7D37721D07644004687B2 /* Info.plist */,
+			);
+			path = tvmaltipleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +278,59 @@
 			productReference = CE2E064A21CDF3C000839251 /* multipleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		CEC7D35521D07641004687B2 /* tvmaltiple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC7D37E21D07644004687B2 /* Build configuration list for PBXNativeTarget "tvmaltiple" */;
+			buildPhases = (
+				CEC7D35221D07641004687B2 /* Sources */,
+				CEC7D35321D07641004687B2 /* Frameworks */,
+				CEC7D35421D07641004687B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvmaltiple;
+			productName = tvmaltiple;
+			productReference = CEC7D35621D07641004687B2 /* tvmaltiple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEC7D36521D07644004687B2 /* tvmaltipleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC7D37F21D07644004687B2 /* Build configuration list for PBXNativeTarget "tvmaltipleTests" */;
+			buildPhases = (
+				CEC7D36221D07644004687B2 /* Sources */,
+				CEC7D36321D07644004687B2 /* Frameworks */,
+				CEC7D36421D07644004687B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC7D36821D07644004687B2 /* PBXTargetDependency */,
+			);
+			name = tvmaltipleTests;
+			productName = tvmaltipleTests;
+			productReference = CEC7D36621D07644004687B2 /* tvmaltipleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEC7D37021D07644004687B2 /* tvmaltipleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC7D38021D07644004687B2 /* Build configuration list for PBXNativeTarget "tvmaltipleUITests" */;
+			buildPhases = (
+				CEC7D36D21D07644004687B2 /* Sources */,
+				CEC7D36E21D07644004687B2 /* Frameworks */,
+				CEC7D36F21D07644004687B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC7D37321D07644004687B2 /* PBXTargetDependency */,
+			);
+			name = tvmaltipleUITests;
+			productName = tvmaltipleUITests;
+			productReference = CEC7D37121D07644004687B2 /* tvmaltipleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +352,17 @@
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = CE2E062A21CDF3BE00839251;
 					};
+					CEC7D35521D07641004687B2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CEC7D36521D07644004687B2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CEC7D35521D07641004687B2;
+					};
+					CEC7D37021D07644004687B2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CEC7D35521D07641004687B2;
+					};
 				};
 			};
 			buildConfigurationList = CE2E062621CDF3BE00839251 /* Build configuration list for PBXProject "multiple" */;
@@ -220,6 +381,9 @@
 				CE2E062A21CDF3BE00839251 /* multiple */,
 				CE2E063E21CDF3C000839251 /* multipleTests */,
 				CE2E064921CDF3C000839251 /* multipleUITests */,
+				CEC7D35521D07641004687B2 /* tvmaltiple */,
+				CEC7D36521D07644004687B2 /* tvmaltipleTests */,
+				CEC7D37021D07644004687B2 /* tvmaltipleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +413,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEC7D35421D07641004687B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC7D36021D07644004687B2 /* Assets.xcassets in Resources */,
+				CEC7D35E21D07642004687B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC7D36421D07644004687B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC7D36F21D07644004687B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -256,8 +443,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE2E063121CDF3BE00839251 /* ViewController.swift in Sources */,
+				CE576FFF21CF284B00BC89D7 /* TableViewController.swift in Sources */,
+				CE2E065D21CE06E900839251 /* AVPlayerView.swift in Sources */,
 				CE2E062F21CDF3BE00839251 /* AppDelegate.swift in Sources */,
+				CE2E065F21CE079F00839251 /* MovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +466,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEC7D35221D07641004687B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC7D38221D076DA004687B2 /* AVPlayerView.swift in Sources */,
+				CEC7D35B21D07642004687B2 /* ViewController.swift in Sources */,
+				CEC7D35921D07642004687B2 /* AppDelegate.swift in Sources */,
+				CEC7D38121D0764D004687B2 /* MovieViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC7D36221D07644004687B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC7D36B21D07644004687B2 /* tvmaltipleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC7D36D21D07644004687B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC7D37621D07644004687B2 /* tvmaltipleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +505,16 @@
 			isa = PBXTargetDependency;
 			target = CE2E062A21CDF3BE00839251 /* multiple */;
 			targetProxy = CE2E064B21CDF3C000839251 /* PBXContainerItemProxy */;
+		};
+		CEC7D36821D07644004687B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC7D35521D07641004687B2 /* tvmaltiple */;
+			targetProxy = CEC7D36721D07644004687B2 /* PBXContainerItemProxy */;
+		};
+		CEC7D37321D07644004687B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC7D35521D07641004687B2 /* tvmaltiple */;
+			targetProxy = CEC7D37221D07644004687B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -307,6 +533,14 @@
 				CE2E063821CDF3C000839251 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CEC7D35C21D07642004687B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC7D35D21D07642004687B2 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -435,6 +669,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J96677DK6N;
 				INFOPLIST_FILE = multiple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +688,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J96677DK6N;
 				INFOPLIST_FILE = multiple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,6 +782,138 @@
 			};
 			name = Release;
 		};
+		CEC7D37821D07644004687B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J96677DK6N;
+				INFOPLIST_FILE = tvmaltiple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.hyuga.tvmaltiple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Debug;
+		};
+		CEC7D37921D07644004687B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J96677DK6N;
+				INFOPLIST_FILE = tvmaltiple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.hyuga.tvmaltiple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Release;
+		};
+		CEC7D37A21D07644004687B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J96677DK6N;
+				INFOPLIST_FILE = tvmaltipleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.hyuga.tvmaltipleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvmaltiple.app/tvmaltiple";
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Debug;
+		};
+		CEC7D37B21D07644004687B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J96677DK6N;
+				INFOPLIST_FILE = tvmaltipleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.hyuga.tvmaltipleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvmaltiple.app/tvmaltiple";
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Release;
+		};
+		CEC7D37C21D07644004687B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J96677DK6N;
+				INFOPLIST_FILE = tvmaltipleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.hyuga.tvmaltipleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = tvmaltiple;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Debug;
+		};
+		CEC7D37D21D07644004687B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J96677DK6N;
+				INFOPLIST_FILE = tvmaltipleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.hyuga.tvmaltipleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = tvmaltiple;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -581,6 +949,33 @@
 			buildConfigurations = (
 				CE2E065A21CDF3C100839251 /* Debug */,
 				CE2E065B21CDF3C100839251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC7D37E21D07644004687B2 /* Build configuration list for PBXNativeTarget "tvmaltiple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC7D37821D07644004687B2 /* Debug */,
+				CEC7D37921D07644004687B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC7D37F21D07644004687B2 /* Build configuration list for PBXNativeTarget "tvmaltipleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC7D37A21D07644004687B2 /* Debug */,
+				CEC7D37B21D07644004687B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC7D38021D07644004687B2 /* Build configuration list for PBXNativeTarget "tvmaltipleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC7D37C21D07644004687B2 /* Debug */,
+				CEC7D37D21D07644004687B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
