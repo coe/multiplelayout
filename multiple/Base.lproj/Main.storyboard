@@ -200,7 +200,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zh2-kO-d8K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4228" y="618"/>
+            <point key="canvasLocation" x="3075" y="-1198"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="lvH-Oo-uDB">
@@ -216,7 +216,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vIR-XT-ZEE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3367" y="1498"/>
+            <point key="canvasLocation" x="2335" y="-1904"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uT6-lm-05c">
@@ -248,7 +248,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2tp-wH-ZD2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3412" y="618"/>
+            <point key="canvasLocation" x="2335" y="-1198"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="wdK-Bh-uZf">
@@ -277,12 +277,11 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qMp-9q-Wxr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2278" y="1618"/>
+            <point key="canvasLocation" x="2336" y="1025"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2zZ-Rf-Lp1">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RUW-Ok-908" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="eMN-Fh-TgP" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hX2-3y-4sB">
                         <rect key="frame" x="0.0" y="20" width="414" height="44"/>
@@ -292,8 +291,9 @@
                         <segue destination="ttl-Wm-8QK" kind="relationship" relationship="rootViewController" id="PW7-QF-mP5"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RUW-Ok-908" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1359" y="1618"/>
+            <point key="canvasLocation" x="1512" y="1025"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="vyq-9F-rVl">
@@ -306,7 +306,7 @@
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qyg-oR-neQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="730" y="1271"/>
+            <point key="canvasLocation" x="662" y="1025"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="bCc-zo-VOn">
@@ -324,7 +324,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C5I-uq-CId" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2449" y="1168"/>
+            <point key="canvasLocation" x="1512" y="-1198"/>
         </scene>
         <!--Title-->
         <scene sceneID="C28-3S-P0J">
@@ -422,7 +422,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wfk-3G-kjk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1236" y="-799"/>
+            <point key="canvasLocation" x="1512" y="-471"/>
         </scene>
         <!--Title-->
         <scene sceneID="oon-cN-b7f">
@@ -433,7 +433,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DtN-Uo-pPi" customClass="AVPlayerView" customModule="multiple" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="20" width="414" height="358"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="336"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1x1-7B-BfT">
                                         <rect key="frame" x="377" y="8" width="29" height="21"/>
@@ -442,7 +442,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dk5-FF-Z7h">
-                                        <rect key="frame" x="358" y="320" width="48" height="30"/>
+                                        <rect key="frame" x="358" y="298" width="48" height="30"/>
                                         <state key="normal" title="Cancel"/>
                                         <connections>
                                             <segue destination="yr5-fu-Ixp" kind="unwind" unwindAction="unwindToTopWithSegue:" id="t1z-a2-tMf"/>
@@ -458,7 +458,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7Zx-Qc-02J">
-                                <rect key="frame" x="0.0" y="378" width="414" height="358"/>
+                                <rect key="frame" x="0.0" y="400" width="414" height="336"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="cVc-s4-49T" imageView="cuy-LJ-WiN" style="IBUITableViewCellStyleDefault" id="7pR-fd-YP5">
@@ -523,13 +523,13 @@
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="constraints">
-                                <include reference="zqj-Kz-RCO"/>
-                                <exclude reference="moG-Nf-aFq"/>
                                 <include reference="m6V-Lm-n5R"/>
+                                <exclude reference="moG-Nf-aFq"/>
+                                <include reference="zqj-Kz-RCO"/>
                                 <exclude reference="Gy2-E0-62Y"/>
+                                <exclude reference="ReI-J3-BbN"/>
                                 <include reference="Se9-Ya-6ZO"/>
                                 <include reference="rT0-31-geL"/>
-                                <exclude reference="ReI-J3-BbN"/>
                             </mask>
                         </variation>
                     </view>
@@ -543,13 +543,13 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Ku-CG-l1R" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="yr5-fu-Ixp" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1512" y="280"/>
+            <point key="canvasLocation" x="1512" y="279"/>
         </scene>
     </scenes>
     <resources>
         <image name="Image" width="482" height="482"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="KY6-Fi-a85"/>
+        <segue reference="GTT-3Q-LNl"/>
     </inferredMetricsTieBreakers>
 </document>
